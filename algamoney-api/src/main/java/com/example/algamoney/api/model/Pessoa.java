@@ -21,7 +21,6 @@ public class Pessoa {
 	private Boolean ativo;
 
 	@Embedded
-	@NotNull
 	private Endereco endereco;
 
 	public String getNome() {
